@@ -2,7 +2,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>io.github.orionlibs</groupId>
     <artifactId>downloader</artifactId>
-    <version>0.0.1</version>
+    <version>1.0.0</version>
     <name>name</name>
     <description>Service allowing the downloading of files.</description>
     <url>https://github.com/orionlibs/downloader</url>
