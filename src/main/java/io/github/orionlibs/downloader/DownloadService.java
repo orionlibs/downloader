@@ -29,11 +29,9 @@ public class DownloadService
             throw new IllegalArgumentException("fileToDownloadTo is null/empty.");
         }
         BufferedInputStream input = downloadFileAsStream(urlResourceToDownload);
-        ByteArrayOutputStream output = null;
         OutputStream fos = null;
-        try
+        try(ByteArrayOutputStream output = new ByteArrayOutputStream())
         {
-            output = new ByteArrayOutputStream();
             byte[] buf = new byte[1024];
             int n = 0;
             while((n = input.read(buf)) != -1)
@@ -46,7 +44,6 @@ public class DownloadService
         finally
         {
             CloseResourceTask.closeResource(input);
-            CloseResourceTask.closeResource(output);
             CloseResourceTask.closeResource(fos);
         }
     }
