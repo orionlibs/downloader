@@ -2,15 +2,15 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>io.github.orionlibs</groupId>
     <artifactId>downloader</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <name>name</name>
     <description>Service allowing the downloading of files.</description>
     <url>https://github.com/orionlibs/downloader</url>
     
     
     <properties>
-        <maven.compiler.source>17</maven.compiler.source>
-        <maven.compiler.target>17</maven.compiler.target>
+        <maven.compiler.source>21</maven.compiler.source>
+        <maven.compiler.target>21</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
     </properties>
