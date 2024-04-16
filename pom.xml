@@ -3,7 +3,7 @@
     <groupId>io.github.orionlibs</groupId>
     <artifactId>downloader</artifactId>
     <version>1.0.2</version>
-    <name>name</name>
+    <name>Orion File Downloader</name>
     <description>Service allowing the downloading of files.</description>
     <url>https://github.com/orionlibs/downloader</url>
     
